@@ -65,4 +65,4 @@ The learn view has a UI Image, Label, and gesture recognizers
 **EXTRA CREDIT: If learn view is opened for the first time, a semi-transparent tutorial view will appear on this screen**
 **EXTRA CREDIT: Unique card flipping animation, and swipe up/ down animations create a smooth user experience**
 
-
+Developed with Khalid Alkhatib, Tyson Smiter, and Luis Carlos Orozco
