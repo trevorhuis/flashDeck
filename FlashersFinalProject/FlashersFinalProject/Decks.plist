@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>front</key>
+		<string>1st</string>
+		<key>back</key>
+		<string>George Washington</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>2nd</string>
+		<key>back</key>
+		<string>John Adams</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>3rd</string>
+		<key>back</key>
+		<string>Thomas Jefferson</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>4th</string>
+		<key>back</key>
+		<string>James Madison</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>5th</string>
+		<key>back</key>
+		<string>James Monroe</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>6th</string>
+		<key>back</key>
+		<string>John Quincy Adams</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>7th</string>
+		<key>back</key>
+		<string>Andrew Jackson</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>8th</string>
+		<key>back</key>
+		<string>Martin Van Buren</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>9th</string>
+		<key>back</key>
+		<string>William Henry</string>
+	</dict>
+	<dict>
+		<key>front</key>
+		<string>10th</string>
+		<key>back</key>
+		<string>John Tyler</string>
+	</dict>
+</array>
+</plist>

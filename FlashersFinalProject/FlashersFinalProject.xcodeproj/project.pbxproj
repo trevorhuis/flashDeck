@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FEC628B2274036300C9D978 /* FrontCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC628A2274036300C9D978 /* FrontCardViewController.swift */; };
+		0FEC628D2274042700C9D978 /* BackCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC628C2274042700C9D978 /* BackCardViewController.swift */; };
+		69969BE62273D49200A65340 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69969BE52273D49200A65340 /* CalendarViewController.swift */; };
+		69E96DC5226E18B0009C166F /* cardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E96DC4226E18B0009C166F /* cardDeck.swift */; };
+		69E96DC7226E1FFA009C166F /* Decks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69E96DC6226E1FFA009C166F /* Decks.plist */; };
+		69E96DC9226E29A9009C166F /* deckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E96DC8226E29A9009C166F /* deckCell.swift */; };
+		B72388D7226E51610053729F /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72388D6226E51610053729F /* CardCollectionViewController.swift */; };
+		B72388D9226E57EA0053729F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72388D8226E57EA0053729F /* CardCollectionViewCell.swift */; };
+		B7833462227F9DD4002B0943 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7833461227F9DD4002B0943 /* PushButton.swift */; };
+		B7833464227FB1D0002B0943 /* PushButtonInvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7833463227FB1D0002B0943 /* PushButtonInvert.swift */; };
+		B7D5455022652C240000764B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5454F22652C240000764B /* AppDelegate.swift */; };
+		B7D5455222652C240000764B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5455122652C240000764B /* ViewController.swift */; };
+		B7D5455522652C240000764B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D5455322652C240000764B /* Main.storyboard */; };
+		B7D5455822652C240000764B /* FlashersFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7D5455622652C240000764B /* FlashersFinalProject.xcdatamodeld */; };
+		B7D5455A22652C250000764B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D5455922652C250000764B /* Assets.xcassets */; };
+		B7D5455D22652C250000764B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D5455B22652C250000764B /* LaunchScreen.storyboard */; };
+		B7F4BD112273A0340039BF25 /* NewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4BD102273A0340039BF25 /* NewCardViewController.swift */; };
+		D91677B4228607FA00F36F96 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91677B3228607FA00F36F96 /* ModalViewController.swift */; };
+		D9727BAC2273B55A00EA9E90 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9727BAB2273B55A00EA9E90 /* LearnViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FEC628A2274036300C9D978 /* FrontCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontCardViewController.swift; sourceTree = "<group>"; };
+		0FEC628C2274042700C9D978 /* BackCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCardViewController.swift; sourceTree = "<group>"; };
+		69969BE52273D49200A65340 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		69E96DC4226E18B0009C166F /* cardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardDeck.swift; sourceTree = "<group>"; };
+		69E96DC6226E1FFA009C166F /* Decks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Decks.plist; sourceTree = "<group>"; };
+		69E96DC8226E29A9009C166F /* deckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deckCell.swift; sourceTree = "<group>"; };
+		B72388D6226E51610053729F /* CardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
+		B72388D8226E57EA0053729F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7833461227F9DD4002B0943 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		B7833463227FB1D0002B0943 /* PushButtonInvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButtonInvert.swift; sourceTree = "<group>"; };
+		B7D5454C22652C240000764B /* FlashersFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashersFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D5454F22652C240000764B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7D5455122652C240000764B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7D5455422652C240000764B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7D5455722652C240000764B /* FlashersFinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashersFinalProject.xcdatamodel; sourceTree = "<group>"; };
+		B7D5455922652C250000764B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7D5455C22652C250000764B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7D5455E22652C250000764B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F4BD102273A0340039BF25 /* NewCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardViewController.swift; sourceTree = "<group>"; };
+		D91677B3228607FA00F36F96 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		D9727BAB2273B55A00EA9E90 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D5454922652C240000764B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D5454322652C240000764B = {
+			isa = PBXGroup;
+			children = (
+				B7D5454E22652C240000764B /* FlashersFinalProject */,
+				B7D5454D22652C240000764B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D5454D22652C240000764B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D5454C22652C240000764B /* FlashersFinalProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D5454E22652C240000764B /* FlashersFinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				B7D5454F22652C240000764B /* AppDelegate.swift */,
+				B7D5455122652C240000764B /* ViewController.swift */,
+				B72388D6226E51610053729F /* CardCollectionViewController.swift */,
+				69969BE52273D49200A65340 /* CalendarViewController.swift */,
+				B7D5455322652C240000764B /* Main.storyboard */,
+				D91677B3228607FA00F36F96 /* ModalViewController.swift */,
+				B7833461227F9DD4002B0943 /* PushButton.swift */,
+				B7833463227FB1D0002B0943 /* PushButtonInvert.swift */,
+				0FEC628A2274036300C9D978 /* FrontCardViewController.swift */,
+				0FEC628C2274042700C9D978 /* BackCardViewController.swift */,
+				D9727BAB2273B55A00EA9E90 /* LearnViewController.swift */,
+				B7F4BD102273A0340039BF25 /* NewCardViewController.swift */,
+				B72388D8226E57EA0053729F /* CardCollectionViewCell.swift */,
+				69E96DC8226E29A9009C166F /* deckCell.swift */,
+				69E96DC4226E18B0009C166F /* cardDeck.swift */,
+				B7D5455922652C250000764B /* Assets.xcassets */,
+				B7D5455B22652C250000764B /* LaunchScreen.storyboard */,
+				B7D5455E22652C250000764B /* Info.plist */,
+				B7D5455622652C240000764B /* FlashersFinalProject.xcdatamodeld */,
+				69E96DC6226E1FFA009C166F /* Decks.plist */,
+			);
+			path = FlashersFinalProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D5454B22652C240000764B /* FlashersFinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D5456122652C250000764B /* Build configuration list for PBXNativeTarget "FlashersFinalProject" */;
+			buildPhases = (
+				B7D5454822652C240000764B /* Sources */,
+				B7D5454922652C240000764B /* Frameworks */,
+				B7D5454A22652C240000764B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashersFinalProject;
+			productName = FlashersFinalProject;
+			productReference = B7D5454C22652C240000764B /* FlashersFinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D5454422652C240000764B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tyson Smiter & Ryan Cree";
+				TargetAttributes = {
+					B7D5454B22652C240000764B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B7D5454722652C240000764B /* Build configuration list for PBXProject "FlashersFinalProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D5454322652C240000764B;
+			productRefGroup = B7D5454D22652C240000764B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D5454B22652C240000764B /* FlashersFinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D5454A22652C240000764B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D5455D22652C250000764B /* LaunchScreen.storyboard in Resources */,
+				B7D5455A22652C250000764B /* Assets.xcassets in Resources */,
+				B7D5455522652C240000764B /* Main.storyboard in Resources */,
+				69E96DC7226E1FFA009C166F /* Decks.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D5454822652C240000764B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69969BE62273D49200A65340 /* CalendarViewController.swift in Sources */,
+				D91677B4228607FA00F36F96 /* ModalViewController.swift in Sources */,
+				0FEC628D2274042700C9D978 /* BackCardViewController.swift in Sources */,
+				B72388D7226E51610053729F /* CardCollectionViewController.swift in Sources */,
+				0FEC628B2274036300C9D978 /* FrontCardViewController.swift in Sources */,
+				B7F4BD112273A0340039BF25 /* NewCardViewController.swift in Sources */,
+				D9727BAC2273B55A00EA9E90 /* LearnViewController.swift in Sources */,
+				B7D5455222652C240000764B /* ViewController.swift in Sources */,
+				69E96DC9226E29A9009C166F /* deckCell.swift in Sources */,
+				B7833462227F9DD4002B0943 /* PushButton.swift in Sources */,
+				B7D5455022652C240000764B /* AppDelegate.swift in Sources */,
+				B72388D9226E57EA0053729F /* CardCollectionViewCell.swift in Sources */,
+				69E96DC5226E18B0009C166F /* cardDeck.swift in Sources */,
+				B7D5455822652C240000764B /* FlashersFinalProject.xcdatamodeld in Sources */,
+				B7833464227FB1D0002B0943 /* PushButtonInvert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7D5455322652C240000764B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D5455422652C240000764B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7D5455B22652C250000764B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D5455C22652C250000764B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7D5455F22652C250000764B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7D5456022652C250000764B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D5456222652C250000764B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57JCL34SC7;
+				INFOPLIST_FILE = FlashersFinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Khalid.FlashersFinalProject10291;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7D5456322652C250000764B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57JCL34SC7;
+				INFOPLIST_FILE = FlashersFinalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Khalid.FlashersFinalProject10291;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D5454722652C240000764B /* Build configuration list for PBXProject "FlashersFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D5455F22652C250000764B /* Debug */,
+				B7D5456022652C250000764B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D5456122652C250000764B /* Build configuration list for PBXNativeTarget "FlashersFinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D5456222652C250000764B /* Debug */,
+				B7D5456322652C250000764B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7D5455622652C240000764B /* FlashersFinalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7D5455722652C240000764B /* FlashersFinalProject.xcdatamodel */,
+			);
+			currentVersion = B7D5455722652C240000764B /* FlashersFinalProject.xcdatamodel */;
+			path = FlashersFinalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7D5454422652C240000764B /* Project object */;
+}
